@@ -1,11 +1,11 @@
 import React from 'react'
-import {
-	Link
-  } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Image from '../Image/Image'
 
 const Header = () => {
     return (
         <nav>
+          <Image url="https://via.placeholder.com/150"/>
           <ul>
             <li>
               <Link to='/'>Home</Link>

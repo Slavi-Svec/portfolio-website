@@ -5,7 +5,10 @@ import {
   Route,
 } from 'react-router-dom'
 
-import Home from './Pages/Home/Home'
+import HomePage from './Pages/HomePage/HomePage'
+import Heading1 from './Components/Heading1/Heading1'
+import Heading2 from './Components/Heading2/Heading2'
+import paragraph from './Components/Paragraph/Paragraph'
 
  const App = () => {
   return (
@@ -19,7 +22,10 @@ import Home from './Pages/Home/Home'
             <Users />
           </Route>
           <Route path='/'>
-            <Home />
+            <HomePage />
+              <Heading1 heading1="portfolio" />
+              <heading2 heading2="Another heading" />
+              <paragraph paragraph="this is a paragraph" />
           </Route>
         </Switch>
       </div>
