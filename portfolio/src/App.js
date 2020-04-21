@@ -6,10 +6,8 @@ import {
 } from 'react-router-dom'
 
 import HomePage from './Pages/HomePage/HomePage'
-import Heading1 from './Components/Heading1/Heading1'
-import Heading2 from './Components/Heading2/Heading2'
-import paragraph from './Components/Paragraph/Paragraph'
-
+import Text from './Components/Text/Text'
+// this is only for routing this App file
  const App = () => {
   return (
     <Router>
@@ -23,9 +21,6 @@ import paragraph from './Components/Paragraph/Paragraph'
           </Route>
           <Route path='/'>
             <HomePage />
-              <Heading1 heading1="portfolio" />
-              <heading2 heading2="Another heading" />
-              <paragraph paragraph="this is a paragraph" />
           </Route>
         </Switch>
       </div>

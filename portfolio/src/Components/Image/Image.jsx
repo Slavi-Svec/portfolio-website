@@ -1,8 +1,9 @@
 import React from 'react'
+import './styles.scss'
 
 const Image = ({ url }) => {
     return (
-        <img src={url}></img>
+        <img className="image" src={url}></img>
     )
 }
 

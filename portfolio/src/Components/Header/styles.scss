@@ -1,0 +1,14 @@
+// Read about BEM convention
+.header {
+    &__link {
+        color: pink;
+        opacity: 1;
+        position: relative;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}

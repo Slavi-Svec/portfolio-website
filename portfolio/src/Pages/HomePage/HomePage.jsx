@@ -3,7 +3,12 @@ import Header from '../../Components/Header/Header'
 
 const HomePage = () => {
     return (
-        <Header />
+        <>
+            <Header />
+            <div>something would go heaer</div>
+            <div>something would go heaer</div>
+            <div>something would go heaer</div>
+        </>
     )
 }
 
