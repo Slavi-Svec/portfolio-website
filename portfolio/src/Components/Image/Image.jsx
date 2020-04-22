@@ -1,9 +1,9 @@
 import React from 'react'
 import './styles.scss'
 
-const Image = ({ url }) => {
+const Image = ({ src }) => {
     return (
-        <img className="image" src={url}></img>
+        <img className="image" src={src}></img>
     )
 }
 
