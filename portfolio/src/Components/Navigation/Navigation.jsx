@@ -7,7 +7,7 @@ import AvatarLogo from '../../Assets/AvatarLogo.png'
 const Navigation = () => {
     return (
       <nav className="nav">
-        <Image src={AvatarLogo}/>
+        <Image className="nav__avatar" src={AvatarLogo}/>
         <header>
           <ul className="nav__list">
             <li>
