@@ -3,7 +3,7 @@ import './styles.scss'
 
 const MessageButton = ({ heading }) => {
     return (
-        <button onClick={() => window.open("www.google.com")}>{ heading }</button>
+        <button onClick={() => window.open()}>{ heading }</button>
     )
 }
 

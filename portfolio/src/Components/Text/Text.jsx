@@ -9,5 +9,3 @@ const Text = ({ text, variant = 'p' }) => {
 }
 
 export default Text
-
-

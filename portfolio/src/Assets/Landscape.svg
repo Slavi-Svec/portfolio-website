@@ -1,10 +1,10 @@
-  <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 preserveAspectRatio="xMidYMid meet" viewBox="0 0 800 300" width="800px" height="300px" enable-background="new 0 0 800 300" xml:space="preserve">
-
-
+    
+    
     <defs>
         <linearGradient id="gradient-oval10" x1="429.5" y1="10" x2="429.5" y2="30" gradientUnits="userSpaceOnUse" >
             <stop offset="0" stop-color="rgb(224, 235, 232)" stop-opacity="1" />
@@ -19,14 +19,14 @@
         <rect id="flagPoleLeft" stroke="none" fill="rgb(255, 255, 255)" x="65" y="83" width="4" height="144" />
         <path id="leftGreenFlag2" stroke="none" fill="rgb(244, 160, 160)" d="M 28.5,108.83 L 69.5,93.5 69.5,125.5 28.5,108.83 Z M 28.5,108.83" />
         <path id="leftGreenFlag" stroke="none" fill="rgb(88, 214, 185)" d="M 28.5,88.83 L 69.5,73.5 69.5,105.5 28.5,88.83 Z M 28.5,88.83" />
-
-
+		
+		
     </g>
     <g id="flagRight">
         <rect id="flagPoleLeft2" stroke="none" fill="rgb(255, 255, 255)" x="725" y="83" width="4" height="144" />
         <path id="leftGreenFlag3" stroke="none" fill="rgb(88, 214, 185)" d="M 688.5,108.83 L 729.5,93.5 729.5,125.5 688.5,108.83 Z M 688.5,108.83" />
         <path id="leftGreenFlag4" stroke="none" fill="rgb(244, 160, 160)" d="M 688.5,88.83 L 729.5,73.5 729.5,105.5 688.5,88.83 Z M 688.5,88.83" />
-
+        
 
     </g>
     <g id="brownHouse">
@@ -52,9 +52,9 @@
         <path id="bezier2" stroke="none" fill="rgb(175, 148, 108)" d="M 103.5,187.34 L 109.23,181.5 110.5,182.8 104.14,189.28 103.71,189.5 103.5,187.34 Z M 103.5,187.34" />
         <path id="bezier3" stroke="none" fill="rgb(175, 148, 108)" d="M 103.5,195.34 L 109.23,189.5 110.5,190.8 104.14,197.28 103.71,197.5 103.5,195.34 Z M 103.5,195.34" />
         <path id="bezier4" stroke="none" fill="rgb(175, 148, 108)" d="M 104.5,191.34 L 98.77,185.5 97.5,186.8 103.86,193.28 104.29,193.5 104.5,191.34 Z M 104.5,191.34" />
-
-
-
+		
+		
+		
     </g>
     <g id="yellowTree2">
         <ellipse id="oval3" stroke="none" fill="rgb(67, 159, 138)" cx="178.25" cy="187" rx="10.25" ry="4" />
