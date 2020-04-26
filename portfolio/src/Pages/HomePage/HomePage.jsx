@@ -15,7 +15,7 @@ const HomePage = () => {
                 <Navigation />
                 <section className="home__description">
                     <Text text="Im Slavi" variant="h2" />
-                    <Text text="a web developer" variant="h3" />
+                    <Text text="a software developer" variant="h3" />
                     <Image className="home__landscape" src={Landscape} />
                 </section>
             </div>
@@ -29,7 +29,9 @@ const HomePage = () => {
                 <Text text="nnlnlnlnlnln" variant="h3" />
                 <Text text="more detais" variant="p" />
             </section>
-            <MessageButton heading="Message Me"/>
+            <section className="home__description">
+                <MessageButton heading="Message Me"/>
+            </section>
             <Footer footer="this is a footer" />
         </section>
     )
