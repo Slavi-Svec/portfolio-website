@@ -7,7 +7,11 @@ import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import MessageButton from '../../Components/MessageButton/MessageButton'
 import Landscape from '../../Assets/Landscape.svg'
-// import GitHub from '../../Assets/gitHub.png'
+import GitHub from '../../Assets/GitHub64.png'
+import Twitter from '../../Assets/Twitter64.png'
+import Linkedin from '../../Assets/Linkedin64.png'
+
+
 
 const HomePage = () => {
     return (
@@ -33,9 +37,13 @@ const HomePage = () => {
             <section className="home__description">
                  <MessageButton heading="Message Me"/>
             </section>
-            {/* <Image className="home__GitHub" src={GitHub} /> */}
-            <Footer footer="this is a footer" />
-        </section>
+            {/* <Footer footer="this is a footer" /> */}
+            <div className="home__links">
+                <Image className="home__GitHub" src={GitHub} />
+                <Image className="home__Twitter" src={Twitter} />
+                <Image className="home__Linkedin" src={Linkedin} />
+            </div>
+         </section>
     )
 }
 
