@@ -7,6 +7,7 @@ import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import MessageButton from '../../Components/MessageButton/MessageButton'
 import Landscape from '../../Assets/Landscape.svg'
+// import GitHub from '../../Assets/gitHub.png'
 
 const HomePage = () => {
     return (
@@ -14,8 +15,8 @@ const HomePage = () => {
             <div className="home__section">
                 <Navigation />
                 <section className="home__description">
-                    <Text text="Im Slavi" variant="h2" />
-                    <Text text="a software developer" variant="h3" />
+                    <Text text="Im Slavi." variant="titletext" />
+                    <Text text="a software developer." variant="titledetail" />
                     <Image className="home__landscape" src={Landscape} />
                 </section>
             </div>
@@ -30,8 +31,9 @@ const HomePage = () => {
                 <Text text="more detais" variant="p" />
             </section>
             <section className="home__description">
-                <MessageButton heading="Message Me"/>
+                 <MessageButton heading="Message Me"/>
             </section>
+            {/* <Image className="home__GitHub" src={GitHub} /> */}
             <Footer footer="this is a footer" />
         </section>
     )

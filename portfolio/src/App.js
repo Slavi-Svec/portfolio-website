@@ -13,11 +13,11 @@ import Text from './Components/Text/Text'
     <Router>
       <div>
         <Switch>
-          <Route path='/about'>
-            <About />
+          <Route path='/projects'>
+            <Projects />
           </Route>
-          <Route path='/users'>
-            <Users />
+          <Route path='/thoughts'>
+            <Thoughts />
           </Route>
           <Route path='/'>
             <HomePage />
@@ -28,12 +28,12 @@ import Text from './Components/Text/Text'
   )
 }
 
-function About() {
-  return <h2>About</h2>
+function Projects() {
+  return <h2>Projects</h2>
 }
 
-function Users() {
-  return <h2>Users</h2>
+function Thoughts() {
+  return <h2>Thoughts</h2>
 }
 
 export default App
