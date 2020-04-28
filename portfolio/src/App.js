@@ -13,8 +13,8 @@ import Text from './Components/Text/Text'
     <Router>
       <div>
         <Switch>
-          <Route path='/projects'>
-            <Projects />
+          <Route path='/portfolio'>
+            <Portfolio />
           </Route>
           <Route path='/thoughts'>
             <Thoughts />
@@ -28,8 +28,8 @@ import Text from './Components/Text/Text'
   )
 }
 
-function Projects() {
-  return <h2>Projects</h2>
+function Portfolio() {
+  return <h2>Portfolio</h2>
 }
 
 function Thoughts() {

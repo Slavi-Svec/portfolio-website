@@ -4,7 +4,7 @@ import './styles.scss'
 const Text = ({ text, variant = 'p' }) => {
     const HtmlTag = variant
     return (
-        <HtmlTag className="text">{text}</HtmlTag>
+        <HtmlTag className="home__profession">{text}</HtmlTag>
     )
 }
 
