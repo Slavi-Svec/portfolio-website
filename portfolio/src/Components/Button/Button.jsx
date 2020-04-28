@@ -1,11 +1,10 @@
 import React from 'react';
 import './styles.scss'
 
-const MessageButton = ({ heading }) => {
+const Button = ({ heading }) => {
     return (
         <button className="messageButton" onClick={() => window.open()}>{ heading }</button>
     )
 }
 
-
-export default  MessageButton
+export default Button

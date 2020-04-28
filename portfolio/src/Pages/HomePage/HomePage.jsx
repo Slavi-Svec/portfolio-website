@@ -4,7 +4,7 @@ import AvatarLogo from '../../Assets/AvatarLogo.png'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
-import MessageButton from '../../Components/MessageButton/MessageButton'
+import Button from '../../Components/Button/Button'
 import Landscape from '../../Assets/Landscape.svg'
 import './styles.scss'
 
@@ -37,7 +37,7 @@ const HomePage = () => {
                 <Text text="more detais" variant="p" />
             </section>
             <section className="home__description">
-                 <MessageButton heading="Message Me"/>
+                 <Button heading="Message Me"/>
             </section>
             <Footer />
 
