@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 
 import HomePage from './Pages/HomePage/HomePage'
+import PortfolioPage from './Pages/Portfolio/Portfolio'
 import Text from './Components/Text/Text'
 // this is only for routing this App file
  const App = () => {
@@ -14,7 +15,7 @@ import Text from './Components/Text/Text'
       <div>
         <Switch>
           <Route path='/portfolio'>
-            <Portfolio />
+            <PortfolioPage />
           </Route>
           <Route path='/thoughts'>
             <Thoughts />
@@ -28,9 +29,9 @@ import Text from './Components/Text/Text'
   )
 }
 
-function Portfolio() {
-  return <h2>Portfolio</h2>
-}
+// function Portfolio() {
+//   return <h2>Portfolio</h2>
+// }
 
 function Thoughts() {
   return <h2>Thoughts</h2>

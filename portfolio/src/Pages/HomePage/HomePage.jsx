@@ -14,7 +14,7 @@ const HomePage = () => {
             <div className="home__section">
                 <Navigation />
                 <section className="home__description">
-                    <Text text="Im Slavi." variant="h2" />
+                    <Text text="Im Slavi" variant="h2" />
                     <Text
                         text="a software developer."
                         className="home__profession"
@@ -40,14 +40,6 @@ const HomePage = () => {
                  <Button heading="Message Me"/>
             </section>
             <Footer />
-
-            {/* <div className="home__container">
-                <div className="home__links">
-                    <Image className="home__GitHub" src={GitHub} />
-                    <Image className="home__Twitter" src={Twitter} />
-                    <Image className="home__Linkedin" src={Linkedin} />
-                </div>
-            </div> */}
          </section>
     )
 }
