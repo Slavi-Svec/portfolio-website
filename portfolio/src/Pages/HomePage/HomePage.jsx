@@ -1,5 +1,6 @@
 import React from 'react'
 import Navigation from '../../Components/Navigation/Navigation'
+import NavigationWrapper from '../../Components/NavigationWrapper/NavigationWrapper'
 import AvatarLogo from '../../Assets/AvatarLogo.png'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
@@ -13,8 +14,13 @@ const HomePage = () => {
         <section className="home">
             <div className="home__section">
                 <Navigation />
+                <NavigationWrapper />
                 <section className="home__description">
-                    <Text text="Im Slavi" variant="h2" />
+                    <Text
+                        text="Im Slavi"
+                        className="home__title"
+                        variant="h2"
+                    />
                     <Text
                         text="a software developer."
                         className="home__profession"

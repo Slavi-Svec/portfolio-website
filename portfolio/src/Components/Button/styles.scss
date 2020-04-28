@@ -1,6 +1,13 @@
 .messageButton {
-    height: 80px;
-    width: 600px;
+    height: 60px;
+    width: 250px;
     background: #45b29a;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
+    border: none;
+    border-radius: 4px;
 }
+
+.messageButton:focus {
+    outline:none;
+    box-shadow: none;
+  }

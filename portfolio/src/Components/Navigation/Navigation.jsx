@@ -9,12 +9,18 @@ const Navigation = () => {
     return (
       <nav className="nav">
       <Link to="/">
-      <Image className="nav__avatar"   src={AvatarLogo}  />
+      <Image className="nav__avatar" src={AvatarLogo}  />
         </Link>
         <header>
           <ul className="nav__list">
             <li>
-              <NavLink activeClassName="nav--active" className="nav__link" to='/'>About</NavLink>
+              <NavLink
+                activeClassName="nav--active"
+                className="nav__link"
+                to='/'
+              >
+                About
+              </NavLink>
             </li>
             <li>
               <NavLink activeClassName="nav--active" className="nav__link" to='/portfolio'>Portfolio</NavLink>

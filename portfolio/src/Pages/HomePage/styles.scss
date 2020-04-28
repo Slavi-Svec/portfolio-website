@@ -9,7 +9,6 @@
     }
 
     &__description {
-        margin-top: 8%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -22,26 +21,17 @@
         margin-top: 90px;
     }
 
+    &__title {
+        // color: #1e836c;
+        color: #45b29a;
+        font-size: 5.8em;
+        font-weight: 400;
+        font-family: 'Indie Flower', cursive;
+    }
+
     &__profession {
         color: #45b29a;
         font-size: 140%;
         font-weight: 400;
-        // color: yellow;
-        // border: red 2px solid;
     }
-
-    // &__container {
-    //     background-color :#c5ded7;
-    //     padding: 90px;
-    //     //  not sure what the border box does ?
-    //     box-sizing: border-box;
-    // }
-
-    // &__links {
-    //     display: flex;
-    //     align-items: column;
-    //     justify-content: space-around;
-
-//     }
-
 }
