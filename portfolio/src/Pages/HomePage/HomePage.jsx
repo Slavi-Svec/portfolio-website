@@ -39,8 +39,9 @@ const HomePage = () => {
             </section>
             <section className="home__description">
                 <Text text="I can help." variant="h2" />
-                <Text text="I'm " variant="h3" />
-                <Text text="more detais" variant="p" />
+                <Text text="I'm Currently available to assist on projects." variant="h3" />
+                <Text text="If you require help on
+                 some upcoming work, or just want to say hey, than get in touch." variant="p" />
             </section>
             <section className="home__description">
                  <Button heading="Message Me"/>
