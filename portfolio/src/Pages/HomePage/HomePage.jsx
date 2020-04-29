@@ -38,8 +38,8 @@ const HomePage = () => {
                 />
             </section>
             <section className="home__description">
-                <Text text="my details" variant="h2" />
-                <Text text="These are also details" variant="h3" />
+                <Text text="I can help." variant="h2" />
+                <Text text="I'm " variant="h3" />
                 <Text text="more detais" variant="p" />
             </section>
             <section className="home__description">

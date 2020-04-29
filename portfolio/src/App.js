@@ -7,6 +7,7 @@ import {
 
 import HomePage from './Pages/HomePage/HomePage'
 import PortfolioPage from './Pages/PortfolioPage/PortfolioPage'
+import ThoughtsPage from './Pages/ThoughtsPage/ThoughtsPage'
 import Text from './Components/Text/Text'
 // this is only for routing this App file
  const App = () => {
@@ -17,8 +18,8 @@ import Text from './Components/Text/Text'
           <Route exact path='/portfolio'>
             <PortfolioPage />
           </Route>
-          <Route path='/thoughts'>
-            <Thoughts />
+          <Route path='/thoughtsPage'>
+            <ThoughtsPage />
           </Route>
           <Route path='/'>
             <HomePage />
@@ -27,11 +28,6 @@ import Text from './Components/Text/Text'
       </div>
     </Router>
   )
-}
-
-
-function Thoughts() {
-  return <h2>Thoughts</h2>
 }
 
 export default App
