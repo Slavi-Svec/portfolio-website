@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '../../Components/Navigation/Navigation'
 import AvatarLogo from '../../Assets/AvatarLogo.png'
 import Button from '../../Components/Button/Button'
+// import MessageButton from '../../Components/MessageButton/MesageButton'
 import Footer from '../../Components/Footer/Footer'
 import Text from '../../Components/Text/Text'
 
@@ -21,9 +22,7 @@ const PortfolioPage = () => {
             </section>
          <Footer />
         </>
-
     )
 }
-
 
 export default PortfolioPage

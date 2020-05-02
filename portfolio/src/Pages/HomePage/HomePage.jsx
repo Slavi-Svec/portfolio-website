@@ -33,18 +33,21 @@ const HomePage = () => {
                 <Image className="home__logo" src={AvatarLogo} />
                 <Text text="Hi" variant="h3" />
                 <Text
-                    text="I'm a software developer based in Sydney, Australia."
+                    className="home__bio"
+                    text="I'm a software developer based in Sydney, Australia.
+                    Lover of all things Javascript, Focusing on front end development
+                    primarily using React. "
                     variant="p"
                 />
             </section>
             <section className="home__description">
                 <Text text="I can help." variant="h2" />
-                <Text text="I'm Currently available to assist on projects." variant="h3" />
+                <Text text="I'm available to assist on projects." variant="h3" />
                 <Text text="If you require help on
                  some upcoming work, or just want to say hey, than get in touch." variant="p" />
             </section>
             <section className="home__description">
-                 <Button heading="Message Me"/>
+                <Button className="home__button" heading="Message Me" variant="primary" />
             </section>
             <Footer />
          </section>
@@ -52,3 +55,4 @@ const HomePage = () => {
 }
 
 export default HomePage
+

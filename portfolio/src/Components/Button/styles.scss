@@ -1,13 +1,27 @@
-.messageButton {
-    height: 60px;
-    width: 250px;
-    background: #45b29a;
-    margin-bottom: 140px;
-    border: none;
-    border-radius: 4px;
-}
+.button {
+    &__primary {
+        height: 60px;
+        width: 250px;
+        background: #45b29a;
+        margin-bottom: 140px;
+        border: none;
+        border-radius: 4px;
+        }
 
-.messageButton:focus {
-    outline:none;
-    box-shadow: none;
-  }
+    // &__primary :focus {
+    //     outline:none;
+    //     box-shadow: none;
+    // }
+
+    &__secondary {
+        height: 60px;
+        width: 250px;
+        background: gray;
+        border: none;
+        border-radius: 4px;
+    }
+
+    // &__secondary:focus {
+    //     outline:none;
+    //     box-shadow: none;
+}

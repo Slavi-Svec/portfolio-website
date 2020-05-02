@@ -8,7 +8,7 @@ import Text from '../../Components/Text/Text'
 
 const ThoughtsPage = () => {
     return (
-        {/* <>
+         <>
 
          <Navigation />
          <section className="home__description">
@@ -20,7 +20,7 @@ const ThoughtsPage = () => {
                  <Button heading="Message Me"/>
             </section>
          <Footer />
-        </> */}
+        </>
 
     )
 }

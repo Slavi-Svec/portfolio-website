@@ -14,7 +14,6 @@ const Footer = () => {
                 <Image src={Linkedin} />
                 <Image src={Twitter} />
                 <Image src={GitHub} />
-
             </section>
         </footer>
     )

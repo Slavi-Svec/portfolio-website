@@ -18,10 +18,10 @@ import Text from './Components/Text/Text'
           <Route exact path='/portfolio'>
             <PortfolioPage />
           </Route>
-          <Route path='/thoughtsPage'>
+          <Route exact path='/thoughts'>
             <ThoughtsPage />
           </Route>
-          <Route path='/'>
+          <Route exact path='/'>
             <HomePage />
           </Route>
         </Switch>
