@@ -10,15 +10,21 @@ import Image from '../../Components/Image/Image'
 const Footer = () => {
     return (
         <footer className="footer">
-            <section className="footer__logos">
-                <Image src={Linkedin} />
-                <Image src={Twitter} />
-                <Image src={GitHub} />
-            </section>
+            <ul className="footer__logos">
+                <li>
+                    <a href="https://example.com">
+                        <Image src={Linkedin} />
+                    </a>
+                </li>
+                <li><a href="https://example.com"><Image src={Twitter} /></a></li>
+                <li><a href="https://example.com"><Image src={GitHub} /></a></li>
+            </ul>
         </footer>
     )
 }
 
 export default Footer
+
+
 
 

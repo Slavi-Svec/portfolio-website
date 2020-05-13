@@ -23,10 +23,7 @@ const Navigation = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink activeClassName="nav--active" className="nav__link" to='/portfolio'>Portfolio</NavLink>
-            </li>
-            <li>
-              <NavLink activeClassName="nav--active" className="nav__link" to='/thoughts'>Thoughts</NavLink>
+              <NavLink activeClassName="nav--active" className="nav__link" to='/contact'>Contact</NavLink>
             </li>
           </ul>
         </header>
