@@ -7,14 +7,14 @@
     }
     &__flag-right {
         position: absolute;
-        bottom: -3.75rem;
-        right: 15%;
+        bottom: 0;
+        right: 25%;
     }
 
     &__flag-left {
         position: absolute;
-        bottom: -3.75rem;
-        left: 15%;
+        bottom: 0px;
+        left: 25%;
     }
 
 
@@ -27,7 +27,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: 7.6375rem;
+        min-height: 23.6375rem;
     }
 
     &__bio {
@@ -46,6 +46,7 @@
         font-size: 6.8rem;
         font-weight: 400;
         font-family: 'Indie Flower', cursive;
+        text-align: center;
     }
 
     &__profession {

@@ -11,11 +11,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <ul className="footer__logos">
-                <li>
-                    <a href="https://example.com">
-                        <Image src={Linkedin} />
-                    </a>
-                </li>
+                <li><a href="https://example.com"><Image src={Linkedin} /> </a></li>
                 <li><a href="https://example.com"><Image src={Twitter} /></a></li>
                 <li><a href="https://example.com"><Image src={GitHub} /></a></li>
             </ul>
