@@ -1,6 +1,8 @@
 import React from 'react'
 import Navigation from '../../Components/Navigation/Navigation'
 import AvatarLogo from '../../Assets/AvatarLogo.png'
+import AvatarLogo2 from '../../Assets/AvatarLogo2.png'
+import AvatarLogo3  from '../../Assets/AvatarLogo3.png'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
@@ -36,6 +38,11 @@ const HomePage = () => {
                     primarily using React. "
                     variant="p"
                 />
+                <section className="home__Work-details">
+                <Text text="What i can do." variant="h2" />
+                </section>
+                <Image className="home__logo" src={AvatarLogo3} />
+                <Image className="home__logo" src={AvatarLogo2} />
             </section>
             <Footer />
          </section>

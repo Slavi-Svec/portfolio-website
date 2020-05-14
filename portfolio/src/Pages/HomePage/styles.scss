@@ -17,6 +17,10 @@
         min-height: 7.6375rem;
     }
 
+    &__Work-details {
+        margin-top: 200px;
+    }
+
     &__bio {
         width: 40%;
     }
@@ -40,14 +44,7 @@
         font-weight: 400;
     }
         // cant style the button ??
-    &__button {
-        height: 60px;
-        width: 250px;
-        background: #45b29a;
-        margin-bottom: 140px;
-        border: none;
-        border-radius: 4px;
-    }
+
 
     .Button:focus {
         outline:none;
