@@ -7,7 +7,8 @@ import JSLogo from '../../Assets/JSLogo.png'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
-import Landscape from '../../Assets/Landscape.svg'
+// import Landscape from '../../Assets/Landscape.svg'
+import Mountain from '../../Assets/Mountain.png'
 import './styles.scss'
 
 const HomePage = () => {
@@ -26,7 +27,8 @@ const HomePage = () => {
                         className="home__profession"
                         variant="h3"
                     />
-                    <Image className="home__landscape" src={Landscape} />
+                    {/* <Image className="home__landscape" src={Landscape} /> */}
+                    <Image className="home__Mountain" src={Mountain} />
                 </section>
             </div>
             <section className="home__description">
@@ -61,7 +63,6 @@ const HomePage = () => {
                 <Text text="I can help." variant="h2" />
                 <Text text="Want to work together? I’d love to hear from you.." variant="h3" />
                 <Text text="I’m happy to collaborate on projects so if you require help on some upcoming work, or just want to say hi, than get in touch. " variant="p" />
-           
 
             </section>
             <Footer />

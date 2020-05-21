@@ -34,16 +34,22 @@
         margin-top: 5.625rem;
     }
 
+    &__Mountain {
+        width: 65%;
+        margin-top: -22px;
+    }
+
+
     &__title {
-        padding-top: 5.625rem;
-        color: #45b29a;
+        padding-top: 2.625rem;
+        color: #5066b0;
         font-size: 6.8rem;
         font-weight: 400;
         font-family: 'Indie Flower', cursive;
     }
 
     &__profession {
-        color: #45b29a;
+        color: #6c80c4;
         font-size: 1.625rem;
         font-weight: 400;
     }
