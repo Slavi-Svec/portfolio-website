@@ -41,17 +41,19 @@ const HomePage = () => (
         <Text text="More about me." variant="h2" />
       </section>
       <Image className="home__logo" src={AvatarLogo3} />
-      <Image className="home__logo-JS" src={JSLogo} />
+      {/* <Image className="home__logo-JS" src={JSLogo} /> */}
       <Text text="What i can do" variant="h3" />
       <Text
         text="I enjoy turning difficult problems into simple and intuitive solutions,
                             creating interesting and beautiful interfaces across web and mobile applications."
+        className="home__info"
         variant="p"
       />
       <Text
-        text=" My main focus is mobile-friendly responsive websites in Html, JavaScript, SASS,
-                            and React but  I am always willing and eager to learn new skills and technologies for creating
+        text=" My main focus is mobile-friendly responsive websites in HTML, SASS, JavaScript,
+                            and React but  I am always willing and eager to learn new skills and technologies for coding
                             stunning user experiences. "
+        className="home__info"
         variant="p"
       />
 
@@ -60,12 +62,25 @@ const HomePage = () => (
       <Text
         text="I'm always ready for an adventure and  travel to many different types of destinations.
                                 Enjoy writing, fitness and lifting heavy things at the gym."
+        className="home__info"
         variant="p"
       />
 
-      <Text text="I can help." variant="h2" />
-      <Text text="Want to work together? I’d love to hear from you.." variant="h3" />
-      <Text text="I’m happy to collaborate on projects so if you require help on some upcoming work, or just want to say hi, than get in touch. " variant="p" />
+      <Text
+        text="I can help."
+        className="home__help"
+        variant="h2"
+      />
+      <Text
+        text="Want to work together? I’d love to hear from you.."
+        className="home__work-together"
+        variant="h3"
+      />
+      <Text
+        text="I’m happy to collaborate on projects so if you require help on some upcoming work, or just want to say hi, than get in touch."
+        className="home__contacting"
+        variant="p"
+      />
 
 
     </section>
