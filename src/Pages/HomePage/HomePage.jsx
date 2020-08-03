@@ -7,7 +7,11 @@ import JSLogo from '../../Assets/JSLogo.png'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
-import Landscape from '../../Assets/Landscape.svg'
+import city from '../../Assets/city-june-23.png'
+import towns from '../../Assets/towns.png'
+import cityOne from '../../Assets/city-aug-3.jpg'
+
+
 import './styles.scss'
 
 const HomePage = () => (
@@ -15,17 +19,21 @@ const HomePage = () => (
     <div className="home__section">
       <Navigation />
       <section className="home__description">
+
         <Text
           text="Im Slavi"
           className="home__title"
           variant="h2"
         />
         <Text
-          text="a software developer."
+          text="a Web developer."
           className="home__profession"
           variant="h3"
         />
-        <Image className="home__landscape" src={Landscape} />
+        {/* <Image className="home__landscape" src={city} /> */}
+        <Image className="home__landscape" src={cityOne} />
+
+
       </section>
     </div>
     <section className="home__description">
@@ -40,7 +48,7 @@ const HomePage = () => (
       <section className="home__Work-details">
         <Text text="More about me." variant="h2" />
       </section>
-      <Image className="home__logo" src={AvatarLogo3} />
+      {/* <Image className="home__logo" src={AvatarLogo3} /> */}
       {/* <Image className="home__logo-JS" src={JSLogo} /> */}
       <Text text="What i can do" variant="h3" />
       <Text

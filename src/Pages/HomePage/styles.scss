@@ -1,7 +1,7 @@
 .home {
     &__logo {
-        height: 10.9375rem;
-        width: 10.9375rem;
+        height: 180px;
+        width: 175px;
         padding-top: 6.25rem;
     }
     &__logo-JS {
@@ -10,7 +10,10 @@
     }
 
     &__section {
-        background: #e0ebe8;
+        // background: #e0ebeb;
+        background: #ddeced;
+        // height: 100vh;
+
     }
 
     &__description {
@@ -18,7 +21,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: 7.6375rem;
+        min-height: 122.2px;
     }
 
     &__Work-details {
@@ -30,22 +33,29 @@
     }
 
     &__landscape {
-        width: 65%;
-        margin-top: 5.625rem;
+        width: 75%;
+        margin-top: 5px;
     }
 
     &__title {
-        padding-top: 5.625rem;
-        color: #45b29a;
-        font-size: 6.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 120px;
+        color: #0c6baa;
+        // color: #116ba7;
+        //  color: #0a69a8;
+        width: 800px;
+        font-size: 150px;
         font-weight: 400;
-        font-family: 'Indie Flower', cursive;
+        font-family: Lemon Jelly Personal Use;
     }
 
     &__profession {
-        color: #45b29a;
-        font-size: 1.625rem;
+        color: #0a69a8;
+        font-size: 35x;
         font-weight: 400;
+        margin: 10px;
     }
 
     &__info {
