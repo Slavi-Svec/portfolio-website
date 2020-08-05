@@ -4,12 +4,10 @@ import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import Button from '../../Components/Button/Button'
-import Pencil from '../../Assets/Pencil.svg'
 import AvatarLogo3 from '../../Assets/AvatarLogo3.png'
-// import Flag from '../../Assets/Flag.svg'
 import './styles.scss'
 
-const ContactPage = () => (
+const WorkPage = () => (
   <section className="contact">
     <div className="contact__section">
       <Navigation />
@@ -17,7 +15,7 @@ const ContactPage = () => (
         {/* <Image className="contact__flag-right" src={Flag} />
         <Image className="contact__flag-left" src={Flag} /> */}
         <Text
-          text="Contact Me"
+          text="Portfolio"
           className="contact__title"
           variant="h2"
         />
@@ -42,4 +40,5 @@ const ContactPage = () => (
   </section>
 )
 
-export default ContactPage
+
+export default WorkPage

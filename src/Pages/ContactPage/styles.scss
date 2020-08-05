@@ -5,21 +5,22 @@
         padding-top: 6.25rem;
         margin-bottom: 50px;
     }
-    &__flag-right {
-        position: absolute;
-        bottom: 0;
-        right: 25%;
-    }
+    // &__flag-right {
+    //     position: absolute;
+    //     bottom: 0;
+    //     right: 25%;
+    // }
 
-    &__flag-left {
-        position: absolute;
-        bottom: 0px;
-        left: 25%;
-    }
+    // &__flag-left {
+    //     position: absolute;
+    //     bottom: 0px;
+    //     left: 25%;
+    // }
 
 
     &__section {
-        background: #e0ebe8;
+        background: #ddeded;
+
     }
 
     &__description {
@@ -42,10 +43,11 @@
     &__title {
         padding-top: 5.625rem;
         margin-bottom: 3.75rem;
-        color: #45b29a;
+        color: #0c6baa;
+
         font-size: 6.8rem;
         font-weight: 400;
-        font-family: 'Indie Flower', cursive;
+        font-family: Lemon Jelly Personal Use;
         text-align: center;
     }
 
