@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 
 import HomePage from './Pages/HomePage/HomePage'
-import ContactPage from './Pages/ContactPage/ContactPage'
+import ContactPage from './Pages/BlogPage/BlogPage'
 import WorkPage from './Pages/WorkPage/WorkPage'
 // this is only for routing this App file
 const App = () => (

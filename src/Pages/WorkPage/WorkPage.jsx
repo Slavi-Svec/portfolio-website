@@ -3,7 +3,6 @@ import Navigation from '../../Components/Navigation/Navigation'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
-import Button from '../../Components/Button/Button'
 import AvatarLogo3 from '../../Assets/AvatarLogo3.png'
 import './styles.scss'
 
@@ -12,10 +11,8 @@ const WorkPage = () => (
     <div className="contact__section">
       <Navigation />
       <section className="contact__description" id="contact__container">
-        {/* <Image className="contact__flag-right" src={Flag} />
-        <Image className="contact__flag-left" src={Flag} /> */}
         <Text
-          text="Portfolio"
+          text="Projects"
           className="contact__title"
           variant="h2"
         />
@@ -25,16 +22,21 @@ const WorkPage = () => (
       <Image className="contact__pencil" src={AvatarLogo3} />
     </section>
     <section className="contact__description">
-      <Text text="I can help." variant="h2" />
-      <Text text="I'm available to assist on projects." variant="h3" />
       <Text
-        text="If you require help on
-                 some upcoming work, or just want to say hey, than get in touch."
+        text="I can help."
+        className="home__help"
+        variant="h2"
+      />
+      <Text
+        text="Want to work together? I’d love to hear from you."
+        className="home__work-together"
+        variant="h3"
+      />
+      <Text
+        text="I’m happy to collaborate on projects so if you require help on some upcoming work, or just want to say hi, than get in touch."
+        className="home__contacting"
         variant="p"
       />
-    </section>
-    <section className="contact__description">
-      <Button className="contact__button" heading="Message Me" variant="primary" />
     </section>
     <Footer />
   </section>

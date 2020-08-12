@@ -4,27 +4,23 @@ import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import Button from '../../Components/Button/Button'
-import Pencil from '../../Assets/Pencil.svg'
-import AvatarLogo3 from '../../Assets/AvatarLogo3.png'
-// import Flag from '../../Assets/Flag.svg'
+import AvatarLogo2 from '../../Assets/AvatarLogo2.png'
 import './styles.scss'
 
-const ContactPage = () => (
+const BlogPage = () => (
   <section className="contact">
     <div className="contact__section">
       <Navigation />
       <section className="contact__description" id="contact__container">
-        {/* <Image className="contact__flag-right" src={Flag} />
-        <Image className="contact__flag-left" src={Flag} /> */}
         <Text
-          text="Contact Me"
+          text="Blog"
           className="contact__title"
           variant="h2"
         />
       </section>
     </div>
     <section className="contact__description">
-      <Image className="contact__pencil" src={AvatarLogo3} />
+      <Image className="contact__pencil" src={AvatarLogo2} />
     </section>
     <section className="contact__description">
       <Text text="I can help." variant="h2" />
@@ -42,4 +38,4 @@ const ContactPage = () => (
   </section>
 )
 
-export default ContactPage
+export default BlogPage

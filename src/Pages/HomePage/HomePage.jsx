@@ -80,7 +80,7 @@ const HomePage = () => (
         variant="h2"
       />
       <Text
-        text="Want to work together? I’d love to hear from you.."
+        text="Want to work together? I’d love to hear from you."
         className="home__work-together"
         variant="h3"
       />
