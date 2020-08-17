@@ -41,7 +41,7 @@ const HomePage = () => (
       <Text text="Hi" variant="h3" />
       <Text
         className="home__bio"
-        text="I'm a software developer based in Sydney, Australia.
+        text="I'm a web developer based in Sydney, Australia.
                     Lover of all things Javascript, focusing  on front end development."
         variant="p"
       />

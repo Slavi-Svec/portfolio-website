@@ -4,24 +4,29 @@ import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import AvatarLogo3 from '../../Assets/AvatarLogo3.png'
+import ProjectOne from '../../Assets/projectone.png'
+import WorkContainer from '../../Components/WorkContainer/WorkContainer'
 import './styles.scss'
 
 const WorkPage = () => (
-  <section className="contact">
-    <div className="contact__section">
+  <section className="work">
+    <div className="work__section">
       <Navigation />
-      <section className="contact__description" id="contact__container">
+      <section className="work__description" id="work__container">
         <Text
           text="Projects"
-          className="contact__title"
+          className="work__title"
           variant="h2"
         />
       </section>
     </div>
-    <section className="contact__description">
-      <Image className="contact__pencil" src={AvatarLogo3} />
+    <section className="work__description">
+      <Image className="work__pencil" src={AvatarLogo3} />
     </section>
-    <section className="contact__description">
+    <section>
+      <WorkContainer className="work__WorkContainer" src={ProjectOne} />
+    </section>
+    <section className="work__description">
       <Text
         text="I can help."
         className="home__help"
