@@ -3,9 +3,13 @@ import Navigation from '../../Components/Navigation/Navigation'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
-import Button from '../../Components/Button/Button'
+// import Button from '../../Components/Button/Button'
 import AvatarLogo2 from '../../Assets/AvatarLogo2.png'
 import './styles.scss'
+import Pagination from '@material-ui/lab/Pagination'
+
+
+
 
 const BlogPage = () => (
   <section className="contact">
@@ -22,17 +26,25 @@ const BlogPage = () => (
     <section className="contact__description">
       <Image className="contact__pencil" src={AvatarLogo2} />
     </section>
-    <section className="contact__description">
-      <Text text="I can help." variant="h2" />
-      <Text text="I'm available to assist on projects." variant="h3" />
+    <section className="work__description">
       <Text
-        text="If you require help on
-                 some upcoming work, or just want to say hey, than get in touch."
+        text="I can help."
+        className="home__help"
+        variant="h2"
+      />
+      <Text
+        text="Want to work together? I’d love to hear from you."
+        className="home__work-together"
+        variant="h3"
+      />
+      <Text
+        text="I’m happy to collaborate on projects so if you require help on some upcoming work, or just want to say hi, than get in touch."
+        className="home__contacting"
         variant="p"
       />
-    </section>
-    <section className="contact__description">
-      <Button className="contact__button" heading="Message Me" variant="primary" />
+
+
+      {/* <Button className="contact__button" heading="Message Me" variant="primary" /> */}
     </section>
     <Footer />
   </section>
