@@ -4,12 +4,12 @@
         width: 175px;
         padding-top: 6.25rem;
     }
+    
     &__logo-JS {
         width: 70px;
     }
 
     &__section {
-        // background: #e0ebeb;
         background: #ddeded;
     }
 
@@ -40,8 +40,6 @@
         align-items: center;
         padding-top: 120px;
         color: #0c6baa;
-        // color: #116ba7;
-        //  color: #0a69a8;
         width: 800px;
         font-size: 150px;
         font-weight: 400;
@@ -56,7 +54,7 @@
     }
 
     &__info {
-        width: 70%;
+        width: 60%;
 
     }
 
@@ -72,5 +70,4 @@
     &__contacting {
         width: 60%;
     }
-        // cant style the button ??
 }

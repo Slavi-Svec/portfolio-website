@@ -4,8 +4,6 @@ import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import AvatarLogo3 from '../../Assets/AvatarLogo3.png'
-import ProjectOne from '../../Assets/projectone.png'
-import WorkContainer from '../../Components/WorkContainer/WorkContainer'
 import './styles.scss'
 
 const WorkPage = () => (
@@ -21,10 +19,7 @@ const WorkPage = () => (
       </section>
     </div>
     <section className="work__description">
-      <Image className="work__pencil" src={AvatarLogo3} />
-    </section>
-    <section>
-      <WorkContainer className="work__WorkContainer" src={ProjectOne} />
+      <Image className="work__logo" src={AvatarLogo3} />
     </section>
     <section className="work__description">
       <Text

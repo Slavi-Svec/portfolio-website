@@ -1,4 +1,4 @@
-.blog {
+.contact {
     &__pencil {
         height: 10.9375rem;
         width: 10.9375rem;
@@ -8,6 +8,7 @@
 
     &__section {
         background: #ddeded;
+
     }
 
     &__description {
@@ -31,6 +32,7 @@
         padding-top: 5.625rem;
         margin-bottom: 3.75rem;
         color: #0c6baa;
+
         font-size: 6.8rem;
         font-weight: 400;
         font-family: Lemon Jelly Personal Use;
@@ -43,57 +45,7 @@
         font-weight: 400;
     }
 
-    &__hero {
-        // background-image: linear-gradient(rgba(0; 0; 0; 0.5), rgba(0,0,0, 0.5));
-        background-image: url('https://www.tpctax.com/wp-content/uploads/2017/05/services-background-placeholder.jpg');
-        height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: realative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-        font-size: 4rem;
-        // [theme.breakpoints.down(sm)]: {
-        //   height: 300;
-        //   fontize: 3em;
-    }
-
-    &__Container {
-        padding-top: theme-spacing(2);
-    }
-
-    &__Title {
-        font-weight: 800;
-        padding-bottom: theme-spacing(3);
-    }
-
-    &__card {
-        max-width: 100%;
-    }
-
-    &__media {
-        height: 240px;
-    }
-
-    &__cardActions {
-        display: flex;
-        margin: 0 10px;
-        justify-content: sace-between;
-    }
-
-    &__author {
-        display: flex;
-    }
-
-    &__paginationContainer {
-        display: flex;
-        justify-content: center;
-    }
-
-
+    
 }
 
 

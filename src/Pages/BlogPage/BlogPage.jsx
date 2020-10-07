@@ -1,174 +1,31 @@
 import React from 'react'
 import Navigation from '../../Components/Navigation/Navigation'
-import './styles.scss'
-import AppBar from '@material-ui/core/AppBar'
-import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
-import Box from '@material-ui/core/Box'
-import { makeStyles } from '@material-ui/core/styles'
-import Container from '@material-ui/core/container'
-import Grid from '@material-ui/core/Grid'
-import Card from '@material-ui/core/Card'
-import CardMedia from '@material-ui/core/cardMedia'
-import CardActionArea from '@material-ui/core/CardActionArea'
-import CardContent from '@material-ui/core/CardContent'
-import CardActions from '@material-ui/core/CardActions'
-import Avatar from '@material-ui/core/Avatar'
-import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
-// import Pagination from '@material-ui/lab/Pagination'
-import Text from '../../Components/Text/Text'
 import Image from '../../Components/Image/Image'
+import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
+// import Button from '../../Components/Button/Button'
 import AvatarLogo2 from '../../Assets/AvatarLogo2.png'
+import './styles.scss'
 
 
 const BlogPage = () => (
-  <section className="blog">
-    <div className="blog__section">
+  <section className="contact">
+    <div className="contact__section">
       <Navigation />
-      <section className="blog__description" id="blog__container">
+      <section className="contact__description" id="contact__container">
         <Text
           text="Blog"
-          className="blog__title"
+          className="contact__title"
           variant="h2"
         />
       </section>
     </div>
-    <section className="blog__description">
-      <Image className="blog__pencil" src={AvatarLogo2} />
+    <section className="contact__description">
+      <Image className="contact__pencil" src={AvatarLogo2} />
+
+
     </section>
-
-    <Container maxWidth="lg" className="blog__blogsContainer">
-      <Typography variant="h4" className="blog__blogTitle">
-        Articles
-      </Typography>
-      {/* Article  start */}
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={6} md={4}>
-          <Card className="blog__card">
-            <CardActionArea>
-              <CardMedia
-                className="blog__media"
-                image="https://res.cloudinary.com/dblnwcqqz/image/upload/v1597625382/download-1_rbhqsr.jpg"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  CodeWars is cool
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Making a start on codeWars
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions className="blog__CardActions">
-              <Box classname="blog__author">
-                <Avatar
-                  src="https://res.cloudinary.com/dblnwcqqz/image/upload/v1595392581/logo_nsg61p.png"
-                />
-                <Box ml={2}>
-                  <Typography variant="subtitle2" component="p">
-                    Slavi Svec
-                  </Typography>
-                  <Typography variant="subtitle2" color="textSecondary" component="p">
-                    Aug 21, 2020
-                  </Typography>
-                </Box>
-              </Box>
-              <box>
-                <BookmarkBorderIcon />
-              </box>
-            </CardActions>
-          </Card>
-        </Grid>
-      </Grid>
-      {/* Article end */}
-      {/* Article  start */}
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={6} md={4}>
-          <Card className="blog__card">
-            <CardActionArea>
-              <CardMedia
-                className="blog__media"
-                image="https://res.cloudinary.com/dblnwcqqz/image/upload/v1597625382/download-1_rbhqsr.jpg"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  CodeWars is cool
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Making a start on codeWars
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions className="blog__CardActions">
-              <Box classname="blog__author">
-                <Avatar
-                  src="https://res.cloudinary.com/dblnwcqqz/image/upload/v1595392581/logo_nsg61p.png"
-                />
-                <Box ml={2}>
-                  <Typography variant="subtitle2" component="p">
-                    Slavi Svec
-                  </Typography>
-                  <Typography variant="subtitle2" color="textSecondary" component="p">
-                    Aug 21, 2020
-                  </Typography>
-                </Box>
-              </Box>
-              <box>
-                <BookmarkBorderIcon />
-              </box>
-            </CardActions>
-          </Card>
-        </Grid>
-      </Grid>
-      {/* Article end  */}
-      {/* Article  start */}
-      <Grid container spacing={3}>
-        <Grid item xs={12} sm={6} md={4}>
-          <Card className="blog__card">
-            <CardActionArea>
-              <CardMedia
-                className="blog__media"
-                image="https://res.cloudinary.com/dblnwcqqz/image/upload/v1597625382/download-1_rbhqsr.jpg"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  CodeWars is cool
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Making a start on codeWars
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions className="blog__CardActions">
-              <Box classname="blog__author">
-                <Avatar
-                  src="https://res.cloudinary.com/dblnwcqqz/image/upload/v1595392581/logo_nsg61p.png"
-                />
-                <Box ml={2}>
-                  <Typography variant="subtitle2" component="p">
-                    Slavi Svec
-                  </Typography>
-                  <Typography variant="subtitle2" color="textSecondary" component="p">
-                    Aug 21, 2020
-                  </Typography>
-                </Box>
-              </Box>
-              <box>
-                <BookmarkBorderIcon />
-              </box>
-            </CardActions>
-          </Card>
-        </Grid>
-      </Grid>
-      {/* Article end */}
-      {/* <Box my={4} className="blog__paginationContainer">
-        <Pagination count={10} />
-      </Box> */}
-    </Container>
-
-
-    <section className="blog__description">
+    <section className="work__description">
       <Text
         text="I can help."
         className="home__help"
@@ -184,8 +41,12 @@ const BlogPage = () => (
         className="home__contacting"
         variant="p"
       />
+
+
+      {/* <Button className="contact__button" heading="Message Me" variant="primary" /> */}
     </section>
     <Footer />
   </section>
 )
+
 export default BlogPage
