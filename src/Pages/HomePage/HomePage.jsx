@@ -2,11 +2,9 @@ import React from 'react'
 import Navigation from '../../Components/Navigation/Navigation'
 import AvatarLogo from '../../Assets/AvatarLogo.png'
 import AvatarLogo2 from '../../Assets/AvatarLogo2.png'
-import AvatarLogo3 from '../../Assets/AvatarLogo3.png'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
-import cityTwo from '../../Assets/towns.png'
 import cityOne from '../../Assets/city-aug-3.jpg'
 import './styles.scss'
 
@@ -31,7 +29,7 @@ const HomePage = () => (
     </div>
     <section className="home__description">
       <Image className="home__logo" src={AvatarLogo} />
-      <Text text="Hi" variant="h3" />
+      <Text text="Hi, Im slavi" variant="h3" />
       <Text
         className="home__bio"
         text="I'm a web developer based in Sydney, Australia.
@@ -80,8 +78,6 @@ const HomePage = () => (
         className="home__contacting"
         variant="p"
       />
-
-
     </section>
     <Footer />
   </section>

@@ -3,7 +3,6 @@ import Navigation from '../../Components/Navigation/Navigation'
 import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
-// import Button from '../../Components/Button/Button'
 import AvatarLogo2 from '../../Assets/AvatarLogo2.png'
 import './styles.scss'
 

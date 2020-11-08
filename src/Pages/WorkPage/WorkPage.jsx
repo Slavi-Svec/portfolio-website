@@ -4,7 +4,9 @@ import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import AvatarLogo3 from '../../Assets/AvatarLogo3.png'
+import laptopTemplate from '../../Assets/laptop-template.png'
 import './styles.scss'
+import ProjectCard from '../../Components/ProjectCard/ProjectCard'
 
 const WorkPage = () => (
   <section className="work">
@@ -20,6 +22,15 @@ const WorkPage = () => (
     </div>
     <section className="work__description">
       <Image className="work__logo" src={AvatarLogo3} />
+    </section>
+    <section>
+      <ProjectCard
+        variant="primary"
+        src={laptopTemplate}
+        title="weather app"
+        description="A simple weather app that displays the current weather and 5 day forecast. Using React and
+                     SASS. The updated datais are accessed from open weather maps api"
+      />
     </section>
     <section className="work__description">
       <Text

@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 300px;
+    padding: 50px 200px;
 
     &__link {
         text-decoration: none;
         color: #0c6baa;
         margin: 0 0 0 1.5em;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 500;
     }
 
@@ -21,8 +21,8 @@
     }
 
     &__avatar {
-        height: 120px;
-        width: 120px;
+        height: 85px;
+        width: 85px;
     }
 }
 
