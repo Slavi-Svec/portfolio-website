@@ -1,9 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const Paragraph = ({ paragraph }) => {
-    return (
-        <p className="paragraph">{paragraph}</p>
-    )
-}
+const Paragraph = ({ paragraph }) => (
+  <p className="paragraph">{paragraph}</p>
+)
 
 export default Paragraph

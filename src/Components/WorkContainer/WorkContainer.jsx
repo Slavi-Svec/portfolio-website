@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Image = ({ src, className }) => (
+const WorkContainer = ({ src, className }) => (
   <img className={className} src={src} alt="alternate" />
 )
 
-export default Image
+export default WorkContainer
