@@ -4,6 +4,8 @@ import Image from '../../Components/Image/Image'
 import Text from '../../Components/Text/Text'
 import Footer from '../../Components/Footer/Footer'
 import AvatarLogo2 from '../../Assets/AvatarLogo2.png'
+import AllPosts from '../../Components/AllPosts/AllPosts'
+import OnePost from '../../Components/OnePost/OnePost'
 import './styles.scss'
 
 
@@ -21,8 +23,9 @@ const BlogPage = () => (
     </div>
     <section className="contact__description">
       <Image className="contact__pencil" src={AvatarLogo2} />
-
-
+    </section>
+    <section>
+      <AllPosts />
     </section>
     <section className="work__description">
       <Text

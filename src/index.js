@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.scss'
-import App from './App.jsx'
+// eslint-disable-next-line import/extensions
+import App from './App.js'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
