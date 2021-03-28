@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import sanityClient from '../../client'
+import sanityClient from '../../client.js'
 import './style.scss'
 
 const AllPosts = () => {
@@ -25,6 +25,7 @@ const AllPosts = () => {
   }, [])
 
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <div className="allPosts__background">
       <div className="allPosts__container">
         <h2 className="allPosts__blog-title">Blog Posts 2020</h2>

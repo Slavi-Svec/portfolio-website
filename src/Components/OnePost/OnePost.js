@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import BlockContent from "@sanity/block-content-to-react"
-import imageUrlBuilder from "@sanity/image-url"
-import sanityClient from "../../client.js"
+import BlockContent from '@sanity/block-content-to-react'
+import imageUrlBuilder from '@sanity/image-url'
+import sanityClient from '../../client.js'
 import './style.scss'
 
 const builder = imageUrlBuilder(sanityClient)
